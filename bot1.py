@@ -5,7 +5,7 @@ from aiogram.dispatcher.storage import FSMContext
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 import sqlite3
 
-bot = Bot('5995066955:AAFUb9KRCR-b4NeUUmHcgJnHuS2I3IsNxk0')
+bot = Bot('')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
